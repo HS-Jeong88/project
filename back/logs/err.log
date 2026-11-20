@@ -1,0 +1,798 @@
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:41: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:41:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:41:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:41:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:41:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:42: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:42:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:42:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:42:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:42:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:43: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:43:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:43:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:43:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:43:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:44: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:44:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:44:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:44:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:44:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:45: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:45:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:45:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:45:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:45:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:45: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:45:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:45:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:45:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:45:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:45: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:45:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:45:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:45:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:45:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:45: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:45:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:45:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:45:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:45:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:45: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:45:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:45:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:45:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:45:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:45: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:45:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:45:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:45:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:45:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:46: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:46:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:46:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:46:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:46:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:47: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:47:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:47:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:47:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:47:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:47: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:47:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:47:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:47:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:47:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:47: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:47:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:47:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:47:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:47:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:47: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:47:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:47:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:47:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:47:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:47: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:47:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:47:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:47:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:47:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:48: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:48:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:48:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:48:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:48:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:49: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:49:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:49:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:49:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:49:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:50: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:50:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:50:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:50:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:50:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:50: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:50:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:50:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:50:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:50:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:50: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:50:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:50:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:50:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:50:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:50: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:50:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:50:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:50:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:50:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:50: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:50:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:50:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:50:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:50:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:51: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:51:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:51:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:51:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:51:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:51: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:51:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:51:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:51:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:51:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:51: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:51:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:51:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:51:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:51:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:51: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:51:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:51:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:51:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:51:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:52: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:52:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:52:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:52:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:52:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:52: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:52:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:52:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:52:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:52:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:52: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:52:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:52:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:52:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:52:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:52: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:52:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:52:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:52:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:52:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:53: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:53:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:53:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:53:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:53:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:53: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:53:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:53:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:53:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:53:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:53: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:53:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:53:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:53:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:53:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:53: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:53:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:53:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:53:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:53:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:53: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:53:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:53:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:53:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:53:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:54: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:54:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:54:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:54:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:54:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:54: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:54:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:54:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:54:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:54:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:54: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:54:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:54:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:54:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:54:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:54: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:54:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:54:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:54:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:54:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:54: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:54:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:54:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:54:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:54:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:55: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:55:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:55:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:55:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:55:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:55: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:55:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:55:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:55:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:55:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:55: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:55:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:55:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:55:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:55:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:55: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:55:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:55:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:55:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:55:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:56: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:56:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:56:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:56:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:56:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:00:56: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:00:56:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:00:56:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:00:56:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:00:56:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:07: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:07:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:07:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:07:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:07:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:08: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:08:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:08:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:08:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:08:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:09: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:09:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:09:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:09:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:09:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:10: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:10:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:10:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:10:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:10:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:11: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:11:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:11:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:11:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:11:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:12: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:12:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:12:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:12:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:12:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:13: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:13:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:13:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:13:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:13: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:13:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:13:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:13:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:13: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:13:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:13:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:13:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:13: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:13:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:13:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:13:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:13: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:13:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:13:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:13:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:13: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:13:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:13:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:13:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:14: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:14:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:14:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:14:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:14:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:15: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:15:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:15:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:15:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:15:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:15: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:15:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:15:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:15:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:15:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:15: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:15:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:15:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:15:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:15:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:15: PostgreSQL Connection Failed: Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2026-11-20 14:01:15:     at D:\jhs\dev\project\project\back\node_modules\pg-pool\index.js:45:11
+2026-11-20 14:01:15:     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-20 14:01:15:     at async connectDB (file:///D:/jhs/dev/project/project/back/src/config/database.js:27:20)
+2026-11-20 14:01:15:     at async startServer (file:///D:/jhs/dev/project/project/back/src/server.js:9:5)
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:01:48: ◇ injected env (14) from .env
+2026-11-20 14:03:28: ◇ injected env (14) from .env
+2026-11-20 14:03:28: ◇ injected env (14) from .env
+2026-11-20 14:03:28: ◇ injected env (14) from .env
+2026-11-20 14:03:28: ◇ injected env (14) from .env
+2026-11-20 14:04:17: ◇ injected env (14) from .env
+2026-11-20 14:04:17: ◇ injected env (14) from .env
+2026-11-20 14:04:18: ◇ injected env (14) from .env
+2026-11-20 14:04:18: ◇ injected env (14) from .env
