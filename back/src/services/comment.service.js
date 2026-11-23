@@ -66,14 +66,29 @@ export const getComments = async ({ postId, page, limit }) => {
   };
 };
 
-// 댓글 작성
-export const addComment = async ({ postId, userId, content }) => {
+// 댓글 및 답글 작성
+export const addComment = async ({ postId, userId, content, parentCommentId = null }) => {
   await ensurePostExists(postId);
+
+  if (parentCommentId) {
+    const parentComment = await ensureCommentExists(parentCommentId);
+
+    // 다른 게시글의 댓글에는 답글을 작성할 수 없음
+    if (parentComment.post_id !== postId) {
+      throw new AppError("현재 게시글에 속한 댓글에만 답글을 작성할 수 있습니다.", 400);
+    }
+
+    // 답글에는 다시 답글을 작성할 수 없음
+    if (parentComment.parent_comment_id !== null) {
+      throw new AppError("답글에는 다시 답글을 작성할 수 없습니다.", 400);
+    }
+  }
 
   return await createComment({
     postId,
     userId,
     content,
+    parentCommentId,
   });
 };
 

@@ -8,6 +8,7 @@ import {
 } from "../repositories/post.repository.js";
 
 import AppError from "../utils/appError.js";
+import { createIpHash } from "../utils/ipHash.js";
 
 // 게시글 목록
 export const getPostList = async (query) => {
@@ -28,9 +29,31 @@ export const getPostList = async (query) => {
   };
 };
 
-// 게시글 상세
-export const getPostDetail = async (postId) => {
-  const post = await findPostById(postId);
+// 게시글 상세 + IP별 조회수 처리
+export const getPostDetail = async (postId, ipAddress) => {
+  let ipHash;
+
+  try {
+    if (!ipAddress) {
+      throw new Error("req.ip가 전달되지 않았습니다.");
+    }
+
+    if (!process.env.VIEW_IP_HMAC_SECRET) {
+      throw new Error("VIEW_IP_HMAC_SECRET 환경변수가 서버에 전달되지 않았습니다.");
+    }
+
+    if (process.env.VIEW_IP_HMAC_SECRET.length < 32) {
+      throw new Error("VIEW_IP_HMAC_SECRET 길이가 32자 미만입니다.");
+    }
+
+    ipHash = createIpHash(ipAddress);
+  } catch (error) {
+    console.error("[IP HASH ERROR]", error.message);
+
+    throw new AppError("조회수 처리를 위한 IP 주소를 확인할 수 없습니다.", 500);
+  }
+
+  const post = await findPostById(postId, ipHash);
 
   if (!post) {
     throw new AppError("게시글을 찾을 수 없습니다.", 404);

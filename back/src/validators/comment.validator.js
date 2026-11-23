@@ -6,6 +6,8 @@ export const commentCreateSchema = z.object({
     .trim()
     .min(1, "댓글 내용을 입력해주세요.")
     .max(2000, "댓글은 2000자 이하여야 합니다."),
+
+  parentCommentId: z.string().uuid("올바르지 않은 부모 댓글 ID입니다.").nullable().optional(),
 });
 
 export const commentUpdateSchema = z.object({

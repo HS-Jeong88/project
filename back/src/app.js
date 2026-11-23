@@ -12,6 +12,20 @@ const app = express();
 
 app.disable("x-powered-by");
 
+// 프록시 신뢰 설정
+const trustProxyValue = process.env.TRUST_PROXY?.trim().toLowerCase();
+
+if (trustProxyValue && trustProxyValue !== "false" && trustProxyValue !== "0") {
+  if (!/^[1-9]\d*$/.test(trustProxyValue)) {
+    throw new Error("TRUST_PROXY에는 false 또는 양의 정수(프록시 홉 수)를 설정해야 합니다.");
+  }
+
+  app.set("trust proxy", Number(trustProxyValue));
+} else {
+  app.set("trust proxy", false);
+}
+
+// Helmet
 app.use(
   helmet({
     contentSecurityPolicy: {
@@ -23,7 +37,8 @@ app.use(
   }),
 );
 
-const allowedOrigins = (process.env.CLIENT_ORIGIN || "http://localhost:5500")
+// CORS
+const allowedOrigins = (process.env.CLIENT_ORIGIN || "http://localhost:3000")
   .split(",")
   .map((origin) => origin.trim())
   .filter(Boolean);
@@ -48,14 +63,17 @@ app.use(
   }),
 );
 
+// HTTP 로그
 app.use(morgan("dev"));
 
+// JSON 파싱
 app.use(
   express.json({
     limit: "1mb",
   }),
 );
 
+// URL 인코딩 파싱
 app.use(
   express.urlencoded({
     extended: true,
@@ -63,10 +81,13 @@ app.use(
   }),
 );
 
+// Cookie 파싱
 app.use(cookieParser());
 
+// API 라우터
 app.use("/api/v1", apiRouter);
 
+// 404 및 에러 처리
 app.use(notFoundHandler);
 app.use(errorHandler);
 

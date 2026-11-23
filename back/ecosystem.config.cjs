@@ -29,22 +29,25 @@ module.exports = {
       env: {
         NODE_ENV: process.env.NODE_ENV || "development",
 
-        PORT: process.env.PORT || 3000,
+        PORT: process.env.PORT,
 
         DB_HOST: process.env.DB_HOST,
-        DB_PORT: process.env.DB_PORT || 5432,
+        DB_PORT: process.env.DB_PORT,
         DB_NAME: process.env.DB_NAME,
         DB_USER: process.env.DB_USER,
         DB_PASSWORD: process.env.DB_PASSWORD,
-        DB_MAX_CONNECTIONS: process.env.DB_MAX_CONNECTIONS || 5,
+        DB_MAX_CONNECTIONS: process.env.DB_MAX_CONNECTIONS,
 
         JWT_SECRET: process.env.JWT_SECRET,
         JWT_REFRESH_SECRET: process.env.JWT_REFRESH_SECRET,
 
-        COOKIE_SECURE: process.env.COOKIE_SECURE || "false",
-        COOKIE_SAME_SITE: process.env.COOKIE_SAME_SITE || "strict",
+        COOKIE_SECURE: process.env.COOKIE_SECURE,
+        COOKIE_SAME_SITE: process.env.COOKIE_SAME_SITE,
 
-        CLIENT_ORIGIN: process.env.CLIENT_ORIGIN || "http://localhost:5500",
+        CLIENT_ORIGIN: process.env.CLIENT_ORIGIN,
+
+        VIEW_IP_HMAC_SECRET: process.env.VIEW_IP_HMAC_SECRET,
+        TRUST_PROXY: process.env.TRUST_PROXY,
       },
 
       env_production: {
@@ -57,9 +60,18 @@ module.exports = {
         DB_USER: process.env.DB_USER_PRODUCTION,
         DB_PASSWORD: process.env.DB_PASSWORD_PRODUCTION,
 
-        DB_MAX_CONNECTIONS: 10,
+        DB_MAX_CONNECTIONS: process.env.DB_MAX_CONNECTIONS_PRODUCTION,
 
-        JWT_SECRET: process.env.JWT_SECRET,
+        COOKIE_SECURE: process.env.COOKIE_SECURE_PRODUCTION,
+        COOKIE_SAME_SITE: process.env.COOKIE_SAME_SITE_PRODUCTION,
+
+        CLIENT_ORIGIN: process.env.CLIENT_ORIGIN_PRODUCTION,
+
+        JWT_SECRET: process.env.JWT_SECRET_PRODUCTION,
+        JWT_REFRESH_SECRET: process.env.JWT_REFRESH_SECRET_PRODUCTION,
+
+        VIEW_IP_HMAC_SECRET: process.env.VIEW_IP_HMAC_SECRET_PRODUCTION,
+        TRUST_PROXY: process.env.TRUST_PROXY_PRODUCTION,
       },
     },
   ],

@@ -24,7 +24,7 @@ export const getPostListController = async (req, res, next) => {
 // 게시글 상세
 export const getPostDetailController = async (req, res, next) => {
   try {
-    const post = await getPostDetail(req.params.postId);
+    const post = await getPostDetail(req.params.postId, req.ip);
 
     return res.status(200).json({
       success: true,

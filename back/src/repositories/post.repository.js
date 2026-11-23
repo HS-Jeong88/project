@@ -32,11 +32,11 @@ const buildSearchCondition = ({ keyword, searchType }) => {
 
   return {
     condition: `
-            AND (
-                p.title ILIKE $1
-                OR p.content ILIKE $1
-            )
-        `,
+      AND (
+        p.title ILIKE $1
+        OR p.content ILIKE $1
+      )
+    `,
     values: [searchValue],
   };
 };
@@ -57,34 +57,34 @@ export const findPosts = async ({ page, limit, keyword, searchType, sortBy, orde
 
   const listResult = await pool.query(
     `
-        SELECT
-            p.id,
-            p.title,
-            p.content,
-            p.view_count,
-            p.created_at,
-            p.updated_at,
-            p.user_id,
-            u.nickname AS author_nickname
-        FROM posts p
-        JOIN users u
-            ON p.user_id = u.id
-        WHERE 1 = 1
-        ${condition}
-        ORDER BY ${sortColumn} ${sortOrder}, p.id DESC
-        LIMIT $${values.length + 1}
-        OFFSET $${values.length + 2}
-        `,
+      SELECT
+        p.id,
+        p.title,
+        p.content,
+        p.view_count,
+        p.created_at,
+        p.updated_at,
+        p.user_id,
+        u.nickname AS author_nickname
+      FROM posts p
+      JOIN users u
+        ON p.user_id = u.id
+      WHERE 1 = 1
+      ${condition}
+      ORDER BY ${sortColumn} ${sortOrder}, p.id DESC
+      LIMIT $${values.length + 1}
+      OFFSET $${values.length + 2}
+    `,
     listValues,
   );
 
   const countResult = await pool.query(
     `
-        SELECT COUNT(*)::INTEGER AS total
-        FROM posts p
-        WHERE 1 = 1
-        ${condition}
-        `,
+      SELECT COUNT(*)::INTEGER AS total
+      FROM posts p
+      WHERE 1 = 1
+      ${condition}
+    `,
     values,
   );
 
@@ -94,65 +94,76 @@ export const findPosts = async ({ page, limit, keyword, searchType, sortBy, orde
   };
 };
 
-// 게시글 상세 조회 + 조회수 증가
-export const findPostById = async (postId) => {
+// 게시글 상세 조회 + IP별 조회수 중복 방지
+export const findPostById = async (postId, ipHash) => {
   const result = await pool.query(
     `
+      WITH inserted_view AS (
+        INSERT INTO post_views (
+          post_id,
+          ip_hash
+        )
+        SELECT
+          id,
+          $2
+        FROM posts
+        WHERE id = $1
+        ON CONFLICT (post_id, ip_hash) DO NOTHING
+        RETURNING post_id
+      ),
+
+      updated_post AS (
         UPDATE posts
         SET view_count = view_count + 1
         WHERE id = $1
-        RETURNING
-            id,
-            user_id,
-            title,
-            content,
-            view_count,
-            created_at,
-            updated_at
-        `,
-    [postId],
+          AND EXISTS (
+            SELECT 1
+            FROM inserted_view
+          )
+        RETURNING id
+      )
+
+      SELECT
+        p.id,
+        p.user_id,
+        p.title,
+        p.content,
+        p.view_count,
+        p.created_at,
+        p.updated_at,
+        u.nickname AS author_nickname
+      FROM posts p
+      JOIN users u
+        ON p.user_id = u.id
+      LEFT JOIN updated_post
+        ON updated_post.id = p.id
+      WHERE p.id = $1
+    `,
+    [postId, ipHash],
   );
 
-  if (!result.rows[0]) {
-    return null;
-  }
-
-  const post = result.rows[0];
-
-  const userResult = await pool.query(
-    `
-        SELECT nickname
-        FROM users
-        WHERE id = $1
-        `,
-    [post.user_id],
-  );
-
-  return {
-    ...post,
-    author_nickname: userResult.rows[0]?.nickname || null,
-  };
+  return result.rows[0] || null;
 };
 
 // 게시글 생성
 export const createPost = async ({ userId, title, content }) => {
   const result = await pool.query(
     `
-        INSERT INTO posts (
-            user_id,
-            title,
-            content
-        )
-        VALUES ($1, $2, $3)
-        RETURNING
-            id,
-            user_id,
-            title,
-            content,
-            view_count,
-            created_at,
-            updated_at
-        `,
+      INSERT INTO posts (
+        user_id,
+        title,
+        content
+      )
+      VALUES ($1, $2, $3)
+      RETURNING
+        id,
+        user_id,
+        title,
+        content,
+        view_count,
+        created_at,
+        updated_at
+    `,
     [userId, title, content],
   );
 
@@ -187,22 +198,22 @@ export const updatePost = async ({ postId, userId, role, title, content }) => {
 
   const result = await pool.query(
     `
-        UPDATE posts
-        SET ${setClauses.join(", ")}
-        WHERE id = $${postIdIndex}
-          AND (
-              user_id = $${userIdIndex}
-              OR $${roleIndex} = 'ADMIN'
-          )
-        RETURNING
-            id,
-            user_id,
-            title,
-            content,
-            view_count,
-            created_at,
-            updated_at
-        `,
+      UPDATE posts
+      SET ${setClauses.join(", ")}
+      WHERE id = $${postIdIndex}
+        AND (
+          user_id = $${userIdIndex}
+          OR $${roleIndex} = 'ADMIN'
+        )
+      RETURNING
+        id,
+        user_id,
+        title,
+        content,
+        view_count,
+        created_at,
+        updated_at
+    `,
     values,
   );
 
@@ -213,10 +224,10 @@ export const updatePost = async ({ postId, userId, role, title, content }) => {
 export const findPostOwner = async (postId) => {
   const result = await pool.query(
     `
-        SELECT user_id
-        FROM posts
-        WHERE id = $1
-        `,
+      SELECT user_id
+      FROM posts
+      WHERE id = $1
+    `,
     [postId],
   );
 
@@ -227,14 +238,14 @@ export const findPostOwner = async (postId) => {
 export const deletePost = async ({ postId, userId, role }) => {
   const result = await pool.query(
     `
-        DELETE FROM posts
-        WHERE id = $1
-          AND (
-              user_id = $2
-              OR $3 = 'ADMIN'
-          )
-        RETURNING id
-        `,
+      DELETE FROM posts
+      WHERE id = $1
+        AND (
+          user_id = $2
+          OR $3 = 'ADMIN'
+        )
+      RETURNING id
+    `,
     [postId, userId, role],
   );
 

@@ -29,7 +29,7 @@ router.get(
   getCommentsController,
 );
 
-// 댓글 작성
+// 댓글 및 답글 작성
 router.post(
   "/posts/:postId/comments",
   authenticate,

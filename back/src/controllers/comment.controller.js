@@ -24,18 +24,21 @@ export const getCommentsController = async (req, res, next) => {
   }
 };
 
-// 댓글 작성
+// 댓글 및 답글 작성
 export const createCommentController = async (req, res, next) => {
   try {
     const comment = await addComment({
       postId: req.validatedParams.postId,
       userId: req.user.id,
       content: req.validatedBody.content,
+      parentCommentId: req.validatedBody.parentCommentId ?? null,
     });
 
     return res.status(201).json({
       success: true,
-      message: "댓글이 등록되었습니다.",
+      message: req.validatedBody.parentCommentId
+        ? "답글이 등록되었습니다."
+        : "댓글이 등록되었습니다.",
       data: {
         comment,
       },

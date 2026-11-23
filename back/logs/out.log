@@ -828,3 +828,8 @@ yyyy-11-Fr 13:46:24: Server running on port 3000
 2026-11-23 09:50:38: =================================
 2026-11-23 12:11:15: ::1 - - [23/Nov/2026:03:11:15 +0000] "GET /api/v1/posts HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
 2026-11-23 12:11:29: ::1 - - [23/Nov/2026:03:11:29 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
+2026-11-23 12:12:47: ::1 - - [23/Nov/2026:03:12:47 +0000] "GET /api/v1/ HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
+2026-11-23 12:12:52: ::1 - - [23/Nov/2026:03:12:52 +0000] "GET /%EB%A9%94%E3%85%91 HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
+2026-11-23 12:12:57: ::1 - - [23/Nov/2026:03:12:57 +0000] "GET /api/v1/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
+2026-11-23 12:13:01: ::1 - - [23/Nov/2026:03:13:01 +0000] "GET /api/ HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
+2026-11-23 12:13:09: ::1 - - [23/Nov/2026:03:13:09 +0000] "GET /api/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
