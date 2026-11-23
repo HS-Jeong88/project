@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { AuthProvider } from "@/providers/AuthProvider";
+import FloatingChatbot from "@/components/chat/FloatingChatbot";
 
 export const metadata: Metadata = {
   title: "RAG BOARD",
@@ -17,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="min-h-screen bg-slate-50 text-slate-800 antialiased">
-        <AuthProvider>{children}</AuthProvider>
+        <AuthProvider>
+          {children}
+          <FloatingChatbot />
+        </AuthProvider>
       </body>
     </html>
   );

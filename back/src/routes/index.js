@@ -4,6 +4,7 @@ import authRouter from "./auth.routes.js";
 import adminRouter from "./admin.routes.js";
 import postRouter from "./post.routes.js";
 import commentRouter from "./comment.routes.js";
+import ragRouter from "./rag.routes.js";
 
 import rateLimit from "../middlewares/rateLimit.middleware.js";
 
@@ -31,5 +32,6 @@ router.use("/auth", authRouter);
 router.use("/admin", adminRouter);
 router.use("/posts", postRouter);
 router.use("/", commentRouter);
+router.use("/rag", ragRouter);
 
 export default router;

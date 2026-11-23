@@ -14,6 +14,7 @@ export const errorHandler = (error, req, res, next) => {
     path: req.originalUrl,
     method: req.method,
     statusCode: error.statusCode || 500,
+    code: error.code,
   });
 
   if (res.headersSent) {
@@ -54,8 +55,9 @@ export const errorHandler = (error, req, res, next) => {
     message = "입력 데이터 형식이 올바르지 않습니다.";
   }
 
-  // 운영 환경에서는 내부 오류 메시지 노출 금지
-  if (statusCode >= 500) {
+  // 운영상 오류(AppError)는 의도한 메시지를 유지
+  if (statusCode >= 500 && error.isOperational !== true) {
+    statusCode = 500;
     code = "INTERNAL_SERVER_ERROR";
     message = "서버 내부 오류가 발생했습니다.";
   }

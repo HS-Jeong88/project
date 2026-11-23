@@ -10,6 +10,8 @@ import {
 import AppError from "../utils/appError.js";
 import { createIpHash } from "../utils/ipHash.js";
 
+import { syncPostEmbeddingInBackground } from "./rag.service.js";
+
 // 게시글 목록
 export const getPostList = async (query) => {
   const result = await findPosts(query);
@@ -64,11 +66,16 @@ export const getPostDetail = async (postId, ipAddress) => {
 
 // 게시글 작성
 export const writePost = async ({ userId, title, content }) => {
-  return await createPost({
+  const post = await createPost({
     userId,
     title,
     content,
   });
+
+  // 게시글 생성 성공 후 임베딩을 백그라운드에서 시도
+  syncPostEmbeddingInBackground(post);
+
+  return post;
 };
 
 // 게시글 수정
@@ -82,6 +89,9 @@ export const editPost = async ({ postId, userId, role, title, content }) => {
   });
 
   if (updatedPost) {
+    // 수정된 게시글의 임베딩 갱신 시도
+    syncPostEmbeddingInBackground(updatedPost);
+
     return updatedPost;
   }
 
