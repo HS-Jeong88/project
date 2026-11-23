@@ -800,3 +800,213 @@
 2026-11-20 14:04:24: ◇ injected env (14) from .env
 2026-11-20 14:04:24: ◇ injected env (14) from .env
 2026-11-20 14:04:24: ◇ injected env (14) from .env
+2026-11-23 09:26:57: ◇ injected env (14) from .env
+2026-11-23 09:26:57: ◇ injected env (14) from .env
+2026-11-23 09:26:57: ◇ injected env (14) from .env
+2026-11-23 09:26:57: ◇ injected env (14) from .env
+2026-11-23 09:27:04: ◇ injected env (14) from .env
+2026-11-23 09:27:04: ◇ injected env (14) from .env
+2026-11-23 09:27:04: ◇ injected env (14) from .env
+2026-11-23 09:27:04: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:27:55: ◇ injected env (14) from .env
+2026-11-23 09:28:08: ◇ injected env (14) from .env
+2026-11-23 09:28:08: ◇ injected env (14) from .env
+2026-11-23 09:28:09: ◇ injected env (14) from .env
+2026-11-23 09:28:09: ◇ injected env (14) from .env
+2026-11-23 09:28:19: ◇ injected env (14) from .env
+2026-11-23 09:28:19: ◇ injected env (14) from .env
+2026-11-23 09:28:20: ◇ injected env (14) from .env
+2026-11-23 09:28:20: ◇ injected env (14) from .env
+2026-11-23 09:28:35: ◇ injected env (14) from .env
+2026-11-23 09:28:35: ◇ injected env (14) from .env
+2026-11-23 09:28:35: ◇ injected env (14) from .env
+2026-11-23 09:28:35: ◇ injected env (14) from .env
+2026-11-23 09:28:43: ◇ injected env (14) from .env
+2026-11-23 09:28:43: ◇ injected env (14) from .env
+2026-11-23 09:28:44: ◇ injected env (14) from .env
+2026-11-23 09:28:44: ◇ injected env (14) from .env
+2026-11-23 09:28:49: ◇ injected env (14) from .env
+2026-11-23 09:28:49: ◇ injected env (14) from .env
+2026-11-23 09:28:50: ◇ injected env (14) from .env
+2026-11-23 09:28:50: ◇ injected env (14) from .env
+2026-11-23 09:30:09: ◇ injected env (14) from .env
+2026-11-23 09:30:09: ◇ injected env (14) from .env
+2026-11-23 09:30:09: ◇ injected env (14) from .env
+2026-11-23 09:30:09: ◇ injected env (14) from .env
+2026-11-23 09:30:29: ◇ injected env (14) from .env
+2026-11-23 09:30:29: ◇ injected env (14) from .env
+2026-11-23 09:30:30: ◇ injected env (14) from .env
+2026-11-23 09:30:30: ◇ injected env (14) from .env
+2026-11-23 09:31:24: ◇ injected env (14) from .env
+2026-11-23 09:31:24: ◇ injected env (14) from .env
+2026-11-23 09:31:25: ◇ injected env (14) from .env
+2026-11-23 09:31:25: ◇ injected env (14) from .env
+2026-11-23 09:31:26: ◇ injected env (14) from .env
+2026-11-23 09:31:26: ◇ injected env (14) from .env
+2026-11-23 09:31:27: ◇ injected env (14) from .env
+2026-11-23 09:31:27: ◇ injected env (14) from .env
+2026-11-23 09:33:33: ◇ injected env (14) from .env
+2026-11-23 09:33:33: ◇ injected env (14) from .env
+2026-11-23 09:33:33: ◇ injected env (14) from .env
+2026-11-23 09:33:33: ◇ injected env (14) from .env
+2026-11-23 09:33:45: ◇ injected env (13) from .env
+2026-11-23 09:33:45: ◇ injected env (13) from .env
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: 필수 환경변수가 설정되지 않았습니다: DB_PASSWORD
+    at file:///D:/jhs/dev/project/project/back/src/config/database.js:17:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async node:internal/modules/esm/loader:650:26
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: 필수 환경변수가 설정되지 않았습니다: DB_PASSWORD
+    at file:///D:/jhs/dev/project/project/back/src/config/database.js:17:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async node:internal/modules/esm/loader:650:26
+2026-11-23 09:33:46: ◇ injected env (13) from .env
+2026-11-23 09:33:46: ◇ injected env (13) from .env
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: 필수 환경변수가 설정되지 않았습니다: DB_PASSWORD
+    at file:///D:/jhs/dev/project/project/back/src/config/database.js:17:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async node:internal/modules/esm/loader:650:26
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: 필수 환경변수가 설정되지 않았습니다: DB_PASSWORD
+    at file:///D:/jhs/dev/project/project/back/src/config/database.js:17:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async node:internal/modules/esm/loader:650:26
+2026-11-23 09:33:51: ◇ injected env (14) from .env
+2026-11-23 09:33:51: ◇ injected env (14) from .env
+2026-11-23 09:33:51: ◇ injected env (14) from .env
+2026-11-23 09:33:51: ◇ injected env (14) from .env
+2026-11-23 09:34:24: ◇ injected env (14) from .env
+2026-11-23 09:34:24: ◇ injected env (14) from .env
+2026-11-23 09:34:24: ◇ injected env (14) from .env
+2026-11-23 09:34:24: ◇ injected env (14) from .env
+2026-11-23 09:34:37: ◇ injected env (14) from .env
+2026-11-23 09:34:37: ◇ injected env (14) from .env
+2026-11-23 09:34:38: ◇ injected env (14) from .env
+2026-11-23 09:34:38: ◇ injected env (14) from .env
+2026-11-23 09:35:23: ◇ injected env (14) from .env
+2026-11-23 09:35:23: ◇ injected env (14) from .env
+2026-11-23 09:35:24: ◇ injected env (14) from .env
+2026-11-23 09:35:24: ◇ injected env (14) from .env
+2026-11-23 09:35:44: ◇ injected env (14) from .env
+2026-11-23 09:35:44: ◇ injected env (14) from .env
+2026-11-23 09:35:45: ◇ injected env (14) from .env
+2026-11-23 09:35:45: ◇ injected env (14) from .env
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+file:///D:/jhs/dev/project/project/back/src/app.js:8
+import errorHandler from "./middlewares/error.middleware.js";
+       ^^^^^^^^^^^^
+SyntaxError: The requested module './middlewares/error.middleware.js' does not provide an export named 'default'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:463:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:561:5)
+    at async node:internal/modules/esm/loader:650:26
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+file:///D:/jhs/dev/project/project/back/src/app.js:8
+import errorHandler from "./middlewares/error.middleware.js";
+       ^^^^^^^^^^^^
+SyntaxError: The requested module './middlewares/error.middleware.js' does not provide an export named 'default'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:463:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:561:5)
+    at async node:internal/modules/esm/loader:650:26
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+file:///D:/jhs/dev/project/project/back/src/app.js:8
+import errorHandler from "./middlewares/error.middleware.js";
+       ^^^^^^^^^^^^
+SyntaxError: The requested module './middlewares/error.middleware.js' does not provide an export named 'default'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:463:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:561:5)
+    at async node:internal/modules/esm/loader:650:26
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+file:///D:/jhs/dev/project/project/back/src/app.js:8
+import errorHandler from "./middlewares/error.middleware.js";
+       ^^^^^^^^^^^^
+SyntaxError: The requested module './middlewares/error.middleware.js' does not provide an export named 'default'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:463:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:561:5)
+    at async node:internal/modules/esm/loader:650:26
+2026-11-23 09:37:38: ◇ injected env (14) from .env
+2026-11-23 09:37:38: ◇ injected env (14) from .env
+2026-11-23 09:37:38: ◇ injected env (14) from .env
+2026-11-23 09:37:38: ◇ injected env (14) from .env
+2026-11-23 09:38:00: ◇ injected env (14) from .env
+2026-11-23 09:38:00: ◇ injected env (14) from .env
+2026-11-23 09:38:01: ◇ injected env (14) from .env
+2026-11-23 09:38:01: ◇ injected env (14) from .env
+2026-11-23 09:38:24: ◇ injected env (14) from .env
+2026-11-23 09:38:24: ◇ injected env (14) from .env
+2026-11-23 09:38:24: ◇ injected env (14) from .env
+2026-11-23 09:38:24: ◇ injected env (14) from .env
+2026-11-23 09:39:36: ◇ injected env (14) from .env
+2026-11-23 09:39:36: ◇ injected env (14) from .env
+2026-11-23 09:39:37: ◇ injected env (14) from .env
+2026-11-23 09:39:37: ◇ injected env (14) from .env
+2026-11-23 09:40:28: ◇ injected env (14) from .env
+2026-11-23 09:40:28: ◇ injected env (14) from .env
+2026-11-23 09:40:28: ◇ injected env (14) from .env
+2026-11-23 09:40:28: ◇ injected env (14) from .env
+2026-11-23 09:40:55: ◇ injected env (14) from .env
+2026-11-23 09:40:55: ◇ injected env (14) from .env
+2026-11-23 09:40:56: ◇ injected env (14) from .env
+2026-11-23 09:40:56: ◇ injected env (14) from .env
+2026-11-23 09:40:57: ◇ injected env (14) from .env
+2026-11-23 09:40:57: ◇ injected env (14) from .env
+2026-11-23 09:40:58: ◇ injected env (14) from .env
+2026-11-23 09:40:58: ◇ injected env (14) from .env
+2026-11-23 09:41:54: ◇ injected env (14) from .env
+2026-11-23 09:41:54: ◇ injected env (14) from .env
+2026-11-23 09:41:54: ◇ injected env (14) from .env
+2026-11-23 09:41:54: ◇ injected env (14) from .env
+2026-11-23 09:43:11: ◇ injected env (14) from .env
+2026-11-23 09:43:11: ◇ injected env (14) from .env
+2026-11-23 09:43:12: ◇ injected env (14) from .env
+2026-11-23 09:43:12: ◇ injected env (14) from .env
+2026-11-23 09:43:26: ◇ injected env (14) from .env
+2026-11-23 09:43:26: ◇ injected env (14) from .env
+2026-11-23 09:43:26: ◇ injected env (14) from .env
+2026-11-23 09:43:26: ◇ injected env (14) from .env
+2026-11-23 09:43:37: ◇ injected env (14) from .env
+2026-11-23 09:43:38: ◇ injected env (14) from .env
+2026-11-23 09:43:38: ◇ injected env (14) from .env
+2026-11-23 09:43:38: ◇ injected env (14) from .env
+2026-11-23 09:47:25: ◇ injected env (14) from .env
+2026-11-23 09:47:25: ◇ injected env (14) from .env
+2026-11-23 09:47:25: ◇ injected env (14) from .env
+2026-11-23 09:47:25: ◇ injected env (14) from .env
+2026-11-23 09:48:11: ◇ injected env (14) from .env
+2026-11-23 09:48:11: ◇ injected env (14) from .env
+2026-11-23 09:48:11: ◇ injected env (14) from .env
+2026-11-23 09:48:11: ◇ injected env (14) from .env
+2026-11-23 09:49:28: ◇ injected env (14) from .env
+2026-11-23 09:49:28: ◇ injected env (14) from .env
+2026-11-23 09:49:29: ◇ injected env (14) from .env
+2026-11-23 09:49:29: ◇ injected env (14) from .env
+2026-11-23 09:49:31: ◇ injected env (14) from .env
+2026-11-23 09:49:31: ◇ injected env (14) from .env
+2026-11-23 09:49:31: ◇ injected env (14) from .env
+2026-11-23 09:49:31: ◇ injected env (14) from .env
+2026-11-23 09:49:35: ◇ injected env (14) from .env
+2026-11-23 09:49:35: ◇ injected env (14) from .env
+2026-11-23 09:49:35: ◇ injected env (14) from .env
+2026-11-23 09:49:35: ◇ injected env (14) from .env
+2026-11-23 09:50:37: ◇ injected env (14) from .env
+2026-11-23 09:50:37: ◇ injected env (14) from .env
+2026-11-23 09:50:38: ◇ injected env (14) from .env
+2026-11-23 09:50:38: ◇ injected env (14) from .env

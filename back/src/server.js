@@ -1,7 +1,10 @@
 import app from "./app.js";
 import pool, { connectDB } from "./config/database.js";
 
-const PORT = process.env.PORT || 3000;
+const PORT = Number(process.env.PORT || 3000);
+
+let server;
+let isShuttingDown = false;
 
 const startServer = async () => {
   try {
@@ -9,31 +12,59 @@ const startServer = async () => {
     await connectDB();
 
     // 서버 실행
-    const server = app.listen(PORT, () => {
-      console.log(`Server running on port ${PORT}`);
+    server = app.listen(PORT, () => {
+      console.log("=================================");
+      console.log(" RAG Board Server Started");
+      console.log(` Port: ${PORT}`);
+      console.log(` Environment: ${process.env.NODE_ENV}`);
+      console.log(` Process ID: ${process.pid}`);
+      console.log("=================================");
     });
 
-    // 서버 종료 처리
-    const shutdown = async () => {
-      console.log("Server shutting down...");
-
-      server.close(async () => {
-        await pool.end();
-        console.log("PostgreSQL Pool Closed");
-
-        process.exit(0);
-      });
-    };
-
-    process.on("SIGINT", shutdown);
-    process.on("SIGTERM", shutdown);
+    server.on("error", (error) => {
+      console.error("[SERVER] Error:", error);
+      process.exit(1);
+    });
   } catch (error) {
-    console.error("Server Startup Failed:", error);
+    console.error("[SERVER] Startup failed:", error);
 
     await pool.end();
 
     process.exit(1);
   }
 };
+
+const shutdown = async () => {
+  if (isShuttingDown) {
+    return;
+  }
+  isShuttingDown = true;
+
+  console.log(`[SERVER] Shutdown initiated.`);
+
+  if (!server) {
+    await pool.end();
+    process.exit(0);
+    return;
+  }
+
+  server.close(async (error) => {
+    if (error) {
+      console.error("[SERVER] Close error:", error);
+    }
+
+    try {
+      await pool.end();
+      console.log("[DB] Connection pool closed");
+    } catch (dbError) {
+      console.error("[DB] Shutdown error:", dbError);
+    }
+
+    process.exit(error ? 1 : 0);
+  });
+};
+
+process.on("SIGINT", () => shutdown("SIGINT"));
+process.on("SIGTERM", () => shutdown("SIGTERM"));
 
 startServer();

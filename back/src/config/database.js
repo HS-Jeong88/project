@@ -3,6 +3,21 @@ import { v4 as uuidv4 } from "uuid";
 
 const { Pool } = pg;
 
+const requiredEnv = [
+  "DB_HOST",
+  "DB_NAME",
+  "DB_USER",
+  "DB_PASSWORD",
+  "DB_PORT",
+  "DB_MAX_CONNECTIONS",
+];
+
+for (const key of requiredEnv) {
+  if (!process.env[key]) {
+    throw new Error(`필수 환경변수가 설정되지 않았습니다: ${key}`);
+  }
+}
+
 const pool = new Pool({
   host: process.env.DB_HOST,
   port: Number(process.env.DB_PORT || 5432),
@@ -16,21 +31,21 @@ const pool = new Pool({
   connectionTimeoutMillis: 5000,
 });
 
-// 연결 오류 처리
-pool.on("error", (error) => {
-  console.error("PostgreSQL Pool Error:", error);
+pool.on("connect", () => {
+  console.log("[DB] PostgreSQL connection established");
 });
 
-// DB 연결 테스트
+pool.on("error", (error) => {
+  console.error("[DB] Unexpected pool error:", error);
+});
+
 export const connectDB = async () => {
   try {
-    const client = await pool.connect();
+    await pool.query("SELECT 1");
 
-    console.log("PostgreSQL Connected");
-
-    client.release();
+    console.log(`[DB] Connected successfully: ${process.env.DB_NAME}`);
   } catch (error) {
-    console.error("PostgreSQL Connection Failed:", error);
+    console.error("[DB] Connection failed:", error);
     throw error;
   }
 };
