@@ -51,7 +51,9 @@ const AdminUsersSection = () => {
 
         <select
           value={role}
-          onChange={(event: ChangeEvent<HTMLSelectElement>) => setRole(event.target.value as AdminRole | "")}
+          onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+            setRole(event.target.value as AdminRole | "")
+          }
           className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
         >
           <option value="">전체 권한</option>
@@ -61,7 +63,9 @@ const AdminUsersSection = () => {
 
         <select
           value={status}
-          onChange={(event: ChangeEvent<HTMLSelectElement>) => setStatus(event.target.value as AdminStatus | "")}
+          onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+            setStatus(event.target.value as AdminStatus | "")
+          }
           className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
         >
           <option value="">전체 상태</option>
@@ -80,7 +84,7 @@ const AdminUsersSection = () => {
       {error && <p className="rounded-lg bg-red-50 p-3 text-sm text-red-600">{error}</p>}
 
       <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
-        <table className="w-full min-w-[850px] text-left text-sm">
+        <table className="w-full min-w-212.5 text-left text-sm">
           <thead className="bg-slate-50 text-xs text-slate-500">
             <tr>
               <th className="px-4 py-4">회원 정보</th>

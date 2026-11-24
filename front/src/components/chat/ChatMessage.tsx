@@ -29,7 +29,7 @@ const ChatMessage = ({ message }: ChatMessageProps) => {
               : "rounded-bl-md border border-slate-200 bg-white text-slate-800"
           }`}
         >
-          <p className="whitespace-pre-wrap break-words text-sm leading-7">{message.content}</p>
+          <p className="whitespace-pre-wrap wrap-break-word text-sm leading-7">{message.content}</p>
         </div>
 
         {!isUser && message.sources && <ChatSources sources={message.sources} />}

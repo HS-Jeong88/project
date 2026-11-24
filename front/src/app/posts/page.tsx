@@ -76,7 +76,9 @@ const PostsPage = () => {
           <form onSubmit={handleSearch} className="flex flex-col gap-3 sm:flex-row">
             <select
               value={searchType}
-              onChange={(event: ChangeEvent<HTMLSelectElement>) => setSearchType(event.target.value as "all" | "title" | "content")}
+              onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+                setSearchType(event.target.value as "all" | "title" | "content")
+              }
               className="rounded-lg border border-slate-300 px-3 py-3 text-sm outline-none focus:border-blue-500"
             >
               <option value="all">전체</option>
@@ -154,12 +156,12 @@ const PostsPage = () => {
                     <div className="min-w-0 flex-1">
                       <Link
                         href={`/posts/${post.id}`}
-                        className="break-words text-base font-bold text-slate-800 hover:text-blue-600"
+                        className="wrap-break-word text-base font-bold text-slate-800 hover:text-blue-600"
                       >
                         {post.title}
                       </Link>
 
-                      <p className="mt-2 line-clamp-2 whitespace-pre-wrap break-words text-sm leading-6 text-slate-500">
+                      <p className="mt-2 line-clamp-2 whitespace-pre-wrap wrap-break-word text-sm leading-6 text-slate-500">
                         {post.content}
                       </p>
 

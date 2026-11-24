@@ -122,7 +122,9 @@ const CommentsSection = ({ postId }: CommentsSectionProps) => {
               <div className="mt-3">
                 <textarea
                   value={editingContent}
-                  onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setEditingContent(event.target.value)}
+                  onChange={(event: ChangeEvent<HTMLTextAreaElement>) =>
+                    setEditingContent(event.target.value)
+                  }
                   maxLength={2000}
                   rows={3}
                   className="w-full rounded-lg border border-slate-300 p-3 text-sm outline-none focus:border-blue-400"
@@ -148,7 +150,7 @@ const CommentsSection = ({ postId }: CommentsSectionProps) => {
                 </div>
               </div>
             ) : (
-              <p className="mt-3 whitespace-pre-wrap break-words text-sm leading-7 text-slate-700">
+              <p className="mt-3 whitespace-pre-wrap wrap-break-word text-sm leading-7 text-slate-700">
                 {comment.content}
               </p>
             )}
@@ -201,7 +203,9 @@ const CommentsSection = ({ postId }: CommentsSectionProps) => {
 
             <textarea
               value={replyContent}
-              onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setReplyContent(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLTextAreaElement>) =>
+                setReplyContent(event.target.value)
+              }
               maxLength={2000}
               rows={3}
               placeholder="답글을 입력해 주세요."

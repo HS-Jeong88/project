@@ -52,7 +52,7 @@ const AdminCommentsSection = () => {
       {error && <p className="rounded-lg bg-red-50 p-3 text-sm text-red-600">{error}</p>}
 
       <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
-        <table className="w-full min-w-[750px] text-left text-sm">
+        <table className="w-full min-w-187.5 text-left text-sm">
           <thead className="bg-slate-50 text-xs text-slate-500">
             <tr>
               <th className="px-4 py-4">댓글 내용</th>
@@ -79,7 +79,7 @@ const AdminCommentsSection = () => {
               comments.map((comment) => (
                 <tr key={comment.id}>
                   <td className="max-w-md px-4 py-4">
-                    <p className="line-clamp-2 whitespace-pre-wrap break-words text-slate-700">
+                    <p className="line-clamp-2 whitespace-pre-wrap wrap-break-word text-slate-700">
                       {comment.content}
                     </p>
                     <p className="mt-1 text-xs text-slate-400">게시글 ID: {comment.post_id}</p>

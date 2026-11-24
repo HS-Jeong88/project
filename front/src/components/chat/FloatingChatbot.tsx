@@ -1,7 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState, type SubmitEvent, type KeyboardEvent, type ChangeEvent } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type SubmitEvent,
+  type KeyboardEvent,
+  type ChangeEvent,
+} from "react";
 import { usePathname } from "next/navigation";
 
 import ChatMessage from "@/components/chat/ChatMessage";
@@ -101,11 +108,11 @@ const FloatingChatbotContent = ({ isAuthenticated, isLoading }: FloatingChatbotC
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-[100]">
+    <div className="fixed bottom-5 right-5 z-100">
       {isOpen && (
         <section
           aria-label="RAG AI 플로팅 챗봇"
-          className="mb-4 flex h-[min(650px,calc(100dvh-120px))] w-[calc(100vw-40px)] max-w-[420px] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl"
+          className="mb-4 flex h-[min(650px,calc(100dvh-120px))] w-[calc(100vw-40px)] max-w-105 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl"
         >
           {/* 챗봇 헤더 */}
           <header className="flex shrink-0 items-center gap-3 bg-slate-900 px-4 py-4">
@@ -325,13 +332,15 @@ const FloatingChatbotContent = ({ isAuthenticated, isLoading }: FloatingChatbotC
                   <div className="flex items-end gap-2">
                     <textarea
                       value={question}
-                      onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setQuestion(event.target.value)}
+                      onChange={(event: ChangeEvent<HTMLTextAreaElement>) =>
+                        setQuestion(event.target.value)
+                      }
                       onKeyDown={handleKeyDown}
                       disabled={isSending || isLoadingConversation}
                       rows={2}
                       maxLength={2000}
                       placeholder="궁금한 내용을 입력하세요."
-                      className="min-h-[44px] flex-1 resize-none rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-100 disabled:opacity-60"
+                      className="min-h-11 flex-1 resize-none rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-100 disabled:opacity-60"
                     />
 
                     <button

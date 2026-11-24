@@ -83,7 +83,7 @@ const ChatPage = () => {
               </button>
             </div>
 
-            <div className="max-h-[600px] space-y-2 overflow-y-auto p-3">
+            <div className="max-h-150 space-y-2 overflow-y-auto p-3">
               {isLoadingConversations && conversations.length === 0 ? (
                 <p className="py-8 text-center text-sm text-slate-400">
                   대화 목록을 불러오는 중입니다.
@@ -154,7 +154,7 @@ const ChatPage = () => {
               </span>
             </header>
 
-            <div className="flex h-[600px] flex-col">
+            <div className="flex h-150 flex-col">
               <div className="flex-1 space-y-6 overflow-y-auto p-4 sm:p-6">
                 {isLoadingConversation ? (
                   <div className="flex h-full items-center justify-center">

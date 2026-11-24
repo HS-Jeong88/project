@@ -25,7 +25,7 @@ const menuItems = [
 
 const Sidebar = () => {
   return (
-    <aside className="w-full border-b border-slate-200 bg-white px-3 py-3 md:fixed md:bottom-0 md:left-0 md:top-[68px] md:z-40 md:w-60 md:border-r md:border-b-0 md:px-5 md:py-8">
+    <aside className="w-full border-b border-slate-200 bg-white px-3 py-3 md:fixed md:bottom-0 md:left-0 md:top-17 md:z-40 md:w-60 md:border-r md:border-b-0 md:px-5 md:py-8">
       <div className="mb-5 hidden px-3 text-xs font-extrabold tracking-widest text-slate-400 md:block">
         MENU
       </div>

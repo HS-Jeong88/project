@@ -53,7 +53,7 @@ const AdminPostsSection = () => {
       {error && <p className="rounded-lg bg-red-50 p-3 text-sm text-red-600">{error}</p>}
 
       <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
-        <table className="w-full min-w-[750px] text-left text-sm">
+        <table className="w-full min-w-187.5 text-left text-sm">
           <thead className="bg-slate-50 text-xs text-slate-500">
             <tr>
               <th className="px-4 py-4">제목</th>
