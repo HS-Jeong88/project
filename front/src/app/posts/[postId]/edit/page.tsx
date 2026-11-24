@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { type SubmitEvent, type ChangeEvent } from "react";
 
 import MainLayout from "@/components/layout/MainLayout";
 import { useAuth } from "@/providers/AuthProvider";
@@ -39,7 +40,7 @@ const PostEditPage = () => {
     }
   }, [authLoading, user, post, canManage, router]);
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const updatedPost = await submit();
@@ -87,7 +88,7 @@ const PostEditPage = () => {
               id="title"
               type="text"
               value={title}
-              onChange={(event) => setTitle(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLInputElement>) => setTitle(event.target.value)}
               maxLength={200}
               required
               className="w-full rounded-lg border border-slate-300 px-4 py-3 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
@@ -104,7 +105,7 @@ const PostEditPage = () => {
             <textarea
               id="content"
               value={content}
-              onChange={(event) => setContent(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setContent(event.target.value)}
               maxLength={50000}
               required
               rows={14}

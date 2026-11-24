@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent, type KeyboardEvent } from "react";
+import { useState, type SubmitEvent, type KeyboardEvent, type ChangeEvent } from "react";
 
 interface ChatInputProps {
   onSend: (message: string) => void;
@@ -10,7 +10,7 @@ interface ChatInputProps {
 const ChatInput = ({ onSend, isSending }: ChatInputProps) => {
   const [question, setQuestion] = useState("");
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const trimmedQuestion = question.trim();
@@ -41,7 +41,7 @@ const ChatInput = ({ onSend, isSending }: ChatInputProps) => {
       <div className="flex items-end gap-3">
         <textarea
           value={question}
-          onChange={(event) => setQuestion(event.target.value)}
+          onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setQuestion(event.target.value)}
           onKeyDown={handleKeyDown}
           disabled={isSending}
           maxLength={2000}

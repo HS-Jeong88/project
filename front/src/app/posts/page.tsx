@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { type SubmitEvent, type ChangeEvent } from "react";
 
 import MainLayout from "@/components/layout/MainLayout";
 import { usePostsViewModel } from "@/viewmodels/posts/usePostsViewModel";
@@ -46,7 +47,7 @@ const PostsPage = () => {
     );
   };
 
-  const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSearch = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
     search();
   };
@@ -75,7 +76,7 @@ const PostsPage = () => {
           <form onSubmit={handleSearch} className="flex flex-col gap-3 sm:flex-row">
             <select
               value={searchType}
-              onChange={(event) => setSearchType(event.target.value as "all" | "title" | "content")}
+              onChange={(event: ChangeEvent<HTMLSelectElement>) => setSearchType(event.target.value as "all" | "title" | "content")}
               className="rounded-lg border border-slate-300 px-3 py-3 text-sm outline-none focus:border-blue-500"
             >
               <option value="all">전체</option>
@@ -85,7 +86,7 @@ const PostsPage = () => {
 
             <input
               value={keyword}
-              onChange={(event) => setKeyword(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLInputElement>) => setKeyword(event.target.value)}
               placeholder="검색어를 입력하세요."
               maxLength={100}
               className="min-w-0 flex-1 rounded-lg border border-slate-300 px-4 py-3 text-sm outline-none focus:border-blue-500"

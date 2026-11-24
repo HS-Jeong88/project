@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { type SubmitEvent, type ChangeEvent } from "react";
 
 import { useAdminPostsViewModel } from "@/viewmodels/admin/useAdminViewModel";
 
@@ -17,7 +18,7 @@ const AdminPostsSection = () => {
     changePage,
   } = useAdminPostsViewModel();
 
-  const handleSubmit = (event: React.FormEvent) => {
+  const handleSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
     searchPosts();
   };
@@ -36,7 +37,7 @@ const AdminPostsSection = () => {
         <input
           type="text"
           value={search}
-          onChange={(event) => setSearch(event.target.value)}
+          onChange={(event: ChangeEvent<HTMLInputElement>) => setSearch(event.target.value)}
           placeholder="게시글 검색"
           className="min-w-0 flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-blue-500"
         />

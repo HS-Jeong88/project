@@ -164,4 +164,4 @@ export const usePostsViewModel = () => {
     removePost,
     reload: loadPosts,
   };
-}
+};

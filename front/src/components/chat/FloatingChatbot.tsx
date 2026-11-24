@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
+import { useEffect, useRef, useState, type SubmitEvent, type KeyboardEvent, type ChangeEvent } from "react";
 import { usePathname } from "next/navigation";
 
 import ChatMessage from "@/components/chat/ChatMessage";
@@ -45,7 +45,7 @@ const FloatingChatbotContent = ({ isAuthenticated, isLoading }: FloatingChatbotC
     }
   }, [messages, isSending, isOpen, showHistory]);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const trimmedQuestion = question.trim();
@@ -325,7 +325,7 @@ const FloatingChatbotContent = ({ isAuthenticated, isLoading }: FloatingChatbotC
                   <div className="flex items-end gap-2">
                     <textarea
                       value={question}
-                      onChange={(event) => setQuestion(event.target.value)}
+                      onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setQuestion(event.target.value)}
                       onKeyDown={handleKeyDown}
                       disabled={isSending || isLoadingConversation}
                       rows={2}

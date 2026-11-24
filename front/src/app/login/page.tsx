@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState, type SyntheticEvent } from "react";
+import { useState, type SubmitEvent, type ChangeEvent } from "react";
 
 import MainLayout from "@/components/layout/MainLayout";
 import { useAuth } from "@/providers/AuthProvider";
@@ -18,7 +18,7 @@ const LoginPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const handleSubmit = async (event: SyntheticEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     setError("");
@@ -61,7 +61,7 @@ const LoginPage = () => {
                 id="email"
                 type="email"
                 value={email}
-                onChange={(event) => setEmail(event.target.value)}
+                onChange={(event: ChangeEvent<HTMLInputElement>) => setEmail(event.target.value)}
                 placeholder="이메일을 입력하세요"
                 autoComplete="email"
                 required
@@ -78,7 +78,7 @@ const LoginPage = () => {
                 id="password"
                 type="password"
                 value={password}
-                onChange={(event) => setPassword(event.target.value)}
+                onChange={(event: ChangeEvent<HTMLInputElement>) => setPassword(event.target.value)}
                 placeholder="비밀번호를 입력하세요"
                 autoComplete="current-password"
                 required

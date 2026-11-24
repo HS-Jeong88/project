@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ChangeEvent } from "react";
 import Link from "next/link";
 
 import { useAuth } from "@/providers/AuthProvider";
@@ -122,7 +122,7 @@ const CommentsSection = ({ postId }: CommentsSectionProps) => {
               <div className="mt-3">
                 <textarea
                   value={editingContent}
-                  onChange={(event) => setEditingContent(event.target.value)}
+                  onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setEditingContent(event.target.value)}
                   maxLength={2000}
                   rows={3}
                   className="w-full rounded-lg border border-slate-300 p-3 text-sm outline-none focus:border-blue-400"
@@ -201,7 +201,7 @@ const CommentsSection = ({ postId }: CommentsSectionProps) => {
 
             <textarea
               value={replyContent}
-              onChange={(event) => setReplyContent(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setReplyContent(event.target.value)}
               maxLength={2000}
               rows={3}
               placeholder="답글을 입력해 주세요."
@@ -261,7 +261,7 @@ const CommentsSection = ({ postId }: CommentsSectionProps) => {
 
           <textarea
             value={content}
-            onChange={(event) => setContent(event.target.value)}
+            onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setContent(event.target.value)}
             maxLength={2000}
             rows={4}
             placeholder="댓글을 입력해 주세요."

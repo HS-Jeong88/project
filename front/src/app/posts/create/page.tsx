@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { type SubmitEvent, type ChangeEvent } from "react";
 
 import MainLayout from "@/components/layout/MainLayout";
 import { useAuth } from "@/providers/AuthProvider";
@@ -21,7 +22,7 @@ const PostCreatePage = () => {
     }
   }, [authLoading, user, router]);
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const post = await submit();
@@ -68,7 +69,7 @@ const PostCreatePage = () => {
               id="title"
               type="text"
               value={title}
-              onChange={(event) => setTitle(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLInputElement>) => setTitle(event.target.value)}
               maxLength={200}
               required
               placeholder="제목을 입력하세요."
@@ -86,7 +87,7 @@ const PostCreatePage = () => {
             <textarea
               id="content"
               value={content}
-              onChange={(event) => setContent(event.target.value)}
+              onChange={(event: ChangeEvent<HTMLTextAreaElement>) => setContent(event.target.value)}
               maxLength={50000}
               required
               rows={14}

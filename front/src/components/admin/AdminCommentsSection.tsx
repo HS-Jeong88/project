@@ -1,5 +1,7 @@
 "use client";
 
+import { type SubmitEvent, type ChangeEvent } from "react";
+
 import { useAdminCommentsViewModel } from "@/viewmodels/admin/useAdminViewModel";
 
 const AdminCommentsSection = () => {
@@ -15,7 +17,7 @@ const AdminCommentsSection = () => {
     changePage,
   } = useAdminCommentsViewModel();
 
-  const handleSubmit = (event: React.FormEvent) => {
+  const handleSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
     searchComments();
   };
@@ -34,7 +36,7 @@ const AdminCommentsSection = () => {
         <input
           type="text"
           value={search}
-          onChange={(event) => setSearch(event.target.value)}
+          onChange={(event: ChangeEvent<HTMLInputElement>) => setSearch(event.target.value)}
           placeholder="댓글 내용 검색"
           className="min-w-0 flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-blue-500"
         />

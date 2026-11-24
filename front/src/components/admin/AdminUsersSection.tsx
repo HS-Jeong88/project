@@ -1,5 +1,7 @@
 "use client";
 
+import { type SubmitEvent, type ChangeEvent } from "react";
+
 import { useAdminUsersViewModel } from "@/viewmodels/admin/useAdminViewModel";
 
 import type { AdminRole, AdminStatus } from "@/models/admin/admin.types";
@@ -23,7 +25,7 @@ const AdminUsersSection = () => {
     changePage,
   } = useAdminUsersViewModel();
 
-  const handleSubmit = (event: React.FormEvent) => {
+  const handleSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
     searchUsers();
   };
@@ -42,14 +44,14 @@ const AdminUsersSection = () => {
         <input
           type="text"
           value={search}
-          onChange={(event) => setSearch(event.target.value)}
+          onChange={(event: ChangeEvent<HTMLInputElement>) => setSearch(event.target.value)}
           placeholder="이메일 또는 닉네임 검색"
           className="min-w-48 flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-blue-500"
         />
 
         <select
           value={role}
-          onChange={(event) => setRole(event.target.value as AdminRole | "")}
+          onChange={(event: ChangeEvent<HTMLSelectElement>) => setRole(event.target.value as AdminRole | "")}
           className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
         >
           <option value="">전체 권한</option>
@@ -59,7 +61,7 @@ const AdminUsersSection = () => {
 
         <select
           value={status}
-          onChange={(event) => setStatus(event.target.value as AdminStatus | "")}
+          onChange={(event: ChangeEvent<HTMLSelectElement>) => setStatus(event.target.value as AdminStatus | "")}
           className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
         >
           <option value="">전체 상태</option>
