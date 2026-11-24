@@ -4,7 +4,7 @@ import { useAdminUsersViewModel } from "@/viewmodels/admin/useAdminViewModel";
 
 import type { AdminRole, AdminStatus } from "@/models/admin/admin.types";
 
-export default function AdminUsersSection() {
+const AdminUsersSection = () => {
   const {
     users,
     pagination,
@@ -184,4 +184,6 @@ export default function AdminUsersSection() {
       )}
     </section>
   );
-}
+};
+
+export default AdminUsersSection;

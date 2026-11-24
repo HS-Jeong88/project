@@ -14,7 +14,7 @@ interface FloatingChatbotContentProps {
   isLoading: boolean;
 }
 
-function FloatingChatbotContent({ isAuthenticated, isLoading }: FloatingChatbotContentProps) {
+const FloatingChatbotContent = ({ isAuthenticated, isLoading }: FloatingChatbotContentProps) => {
   const {
     messages,
     conversations,
@@ -387,9 +387,9 @@ function FloatingChatbotContent({ isAuthenticated, isLoading }: FloatingChatbotC
       </div>
     </div>
   );
-}
+};
 
-export default function FloatingChatbot() {
+const FloatingChatbot = () => {
   const pathname = usePathname();
 
   const { user, isAuthenticated, isLoading } = useAuth();
@@ -403,4 +403,6 @@ export default function FloatingChatbot() {
   return (
     <FloatingChatbotContent key={userKey} isAuthenticated={isAuthenticated} isLoading={isLoading} />
   );
-}
+};
+
+export default FloatingChatbot;

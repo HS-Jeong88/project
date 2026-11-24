@@ -10,7 +10,7 @@ import type {
   PostResponseData,
 } from "./post.types";
 
-export async function getPosts(params: PostListParams = {}): Promise<PostListData> {
+export const getPosts = async (params: PostListParams = {}): Promise<PostListData> => {
   const searchParams = new URLSearchParams();
 
   searchParams.set("page", String(params.page ?? 1));
@@ -31,9 +31,9 @@ export async function getPosts(params: PostListParams = {}): Promise<PostListDat
   );
 
   return response.data;
-}
+};
 
-export async function getPost(postId: string): Promise<Post> {
+export const getPost = async (postId: string): Promise<Post> => {
   const response = await apiClient.get<ApiEnvelope<PostResponseData>>(
     `/posts/${encodeURIComponent(postId)}`,
     {
@@ -42,27 +42,27 @@ export async function getPost(postId: string): Promise<Post> {
   );
 
   return response.data.post;
-}
+};
 
-export async function createPost(input: PostInput): Promise<Post> {
+export const createPost = async (input: PostInput): Promise<Post> => {
   const response = await apiClient.post<ApiEnvelope<PostResponseData>>("/posts", input);
 
   return response.data.post;
-}
+};
 
-export async function updatePost(postId: string, input: Partial<PostInput>): Promise<Post> {
+export const updatePost = async (postId: string, input: Partial<PostInput>): Promise<Post> => {
   const response = await apiClient.patch<ApiEnvelope<PostResponseData>>(
     `/posts/${encodeURIComponent(postId)}`,
     input,
   );
 
   return response.data.post;
-}
+};
 
-export async function deletePost(postId: string): Promise<string> {
+export const deletePost = async (postId: string): Promise<string> => {
   const response = await apiClient.delete<ApiEnvelope<PostDeleteData>>(
     `/posts/${encodeURIComponent(postId)}`,
   );
 
   return response.data.id;
-}
+};

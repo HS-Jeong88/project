@@ -6,7 +6,7 @@ import { deletePost, getPosts } from "@/models/post/post.model";
 
 import type { Post, PostListParams, PostPagination } from "@/models/post/post.types";
 
-export function usePostsViewModel() {
+export const usePostsViewModel = () => {
   const [posts, setPosts] = useState<Post[]>([]);
   const [pagination, setPagination] = useState<PostPagination | null>(null);
 
@@ -25,7 +25,7 @@ export function usePostsViewModel() {
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchInitialPosts() {
+    const fetchInitialPosts = async () => {
       try {
         const result = await getPosts({
           page: 1,
@@ -49,7 +49,7 @@ export function usePostsViewModel() {
           setLoading(false);
         }
       }
-    }
+    };
 
     void fetchInitialPosts();
 

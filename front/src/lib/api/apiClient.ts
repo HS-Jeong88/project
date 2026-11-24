@@ -4,24 +4,24 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 let accessToken: string | null = null;
 
-export function setAccessToken(token: string | null): void {
+export const setAccessToken = (token: string | null): void => {
   accessToken = token;
-}
+};
 
-export function getAccessToken(): string | null {
+export const getAccessToken = (): string | null => {
   return accessToken;
-}
+};
 
-export function clearAccessToken(): void {
+export const clearAccessToken = (): void => {
   accessToken = null;
-}
+};
 
 interface ApiRequestOptions extends Omit<RequestInit, "body"> {
   body?: unknown;
   auth?: boolean;
 }
 
-async function request<T>(path: string, options: ApiRequestOptions = {}): Promise<T> {
+const request = async <T>(path: string, options: ApiRequestOptions = {}): Promise<T> => {
   if (!API_BASE_URL) {
     throw new Error("NEXT_PUBLIC_API_URL 환경변수가 설정되지 않았습니다.");
   }
@@ -80,7 +80,7 @@ async function request<T>(path: string, options: ApiRequestOptions = {}): Promis
   }
 
   return data as T;
-}
+};
 
 export const apiClient = {
   get<T>(path: string, options: Omit<ApiRequestOptions, "method" | "body"> = {}) {

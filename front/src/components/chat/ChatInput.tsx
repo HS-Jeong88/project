@@ -7,7 +7,7 @@ interface ChatInputProps {
   isSending: boolean;
 }
 
-export default function ChatInput({ onSend, isSending }: ChatInputProps) {
+const ChatInput = ({ onSend, isSending }: ChatInputProps) => {
   const [question, setQuestion] = useState("");
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -67,4 +67,6 @@ export default function ChatInput({ onSend, isSending }: ChatInputProps) {
       </div>
     </form>
   );
-}
+};
+
+export default ChatInput;

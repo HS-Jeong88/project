@@ -6,7 +6,7 @@ import { createPost, getPost, updatePost } from "@/models/post/post.model";
 
 import type { PostInput } from "@/models/post/post.types";
 
-export function usePostEditorViewModel(postId?: string) {
+export const usePostEditorViewModel = (postId?: string) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 

@@ -14,7 +14,7 @@ import type { AuthUser, LoginInput, RegisterInput } from "@/models/auth/auth.typ
 
 import { clearAccessToken, setAccessToken } from "@/lib/api/apiClient";
 
-export function useAuthViewModel() {
+export const useAuthViewModel = () => {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 

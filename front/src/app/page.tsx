@@ -23,7 +23,7 @@ const features = [
   },
 ];
 
-export default function HomePage() {
+const HomePage = () => {
   return (
     <MainLayout>
       <section className="rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-50 px-6 py-10 sm:px-10 sm:py-14">
@@ -105,4 +105,6 @@ export default function HomePage() {
       </section>
     </MainLayout>
   );
-}
+};
+
+export default HomePage;

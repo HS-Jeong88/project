@@ -6,7 +6,7 @@ import { gemini, geminiConfig } from "../src/config/gemini.js";
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // 일시적인 서버 오류 재시도
-async function retryRequest(name, request, maxRetries = 3) {
+const retryRequest = async (name, request, maxRetries = 3) => {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       console.log(`\n[${name}] 요청 (${attempt + 1}/${maxRetries + 1})`);
@@ -34,9 +34,9 @@ async function retryRequest(name, request, maxRetries = 3) {
       await sleep(delay);
     }
   }
-}
+};
 
-async function testEmbedding() {
+const testEmbedding = async () => {
   console.log("\n================================");
   console.log("1. Gemini 임베딩 테스트");
   console.log("================================");
@@ -67,9 +67,9 @@ async function testEmbedding() {
   console.log("벡터 차원:", embedding.length);
 
   return true;
-}
+};
 
-async function testGeneration() {
+const testGeneration = async () => {
   console.log("\n================================");
   console.log("2. Gemini 답변 생성 테스트");
   console.log("================================");
@@ -92,9 +92,9 @@ async function testGeneration() {
   console.log("답변:", answer);
 
   return true;
-}
+};
 
-async function main() {
+const main = async () => {
   try {
     console.log("Gemini API 연결 테스트 시작");
 
@@ -110,6 +110,6 @@ async function main() {
 
     process.exitCode = 1;
   }
-}
+};
 
 await main();

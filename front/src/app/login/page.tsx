@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState, type FormEvent } from "react";
+import { useState, type SyntheticEvent } from "react";
 
 import MainLayout from "@/components/layout/MainLayout";
 import { useAuth } from "@/providers/AuthProvider";
 
-export default function LoginPage() {
+const LoginPage = () => {
   const router = useRouter();
 
   const { login } = useAuth();
@@ -18,7 +18,7 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: SyntheticEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     setError("");
@@ -109,4 +109,6 @@ export default function LoginPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default LoginPage;

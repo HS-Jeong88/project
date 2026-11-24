@@ -10,7 +10,7 @@ import ChatMessage from "@/components/chat/ChatMessage";
 import { useAuth } from "@/providers/AuthProvider";
 import { useChatViewModel } from "@/viewmodels/chat/useChatViewModel";
 
-export default function ChatPage() {
+const ChatPage = () => {
   const { isAuthenticated, isLoading } = useAuth();
 
   const {
@@ -265,4 +265,6 @@ export default function ChatPage() {
       </p>
     </MainLayout>
   );
-}
+};
+
+export default ChatPage;

@@ -26,7 +26,7 @@ import type { Post } from "@/models/post/post.types";
 import type { Comment } from "@/models/comment/comment.types";
 
 // 회원 관리 ViewModel
-export function useAdminUsersViewModel() {
+export const useAdminUsersViewModel = () => {
   const [users, setUsers] = useState<AdminUser[]>([]);
   const [pagination, setPagination] = useState<AdminPagination | null>(null);
 
@@ -42,7 +42,7 @@ export function useAdminUsersViewModel() {
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchUsers() {
+    const fetchUsers = async () => {
       try {
         const result = await getAdminUsers({
           page: 1,
@@ -62,7 +62,7 @@ export function useAdminUsersViewModel() {
           setLoading(false);
         }
       }
-    }
+    };
 
     void fetchUsers();
 
@@ -173,7 +173,7 @@ export function useAdminUsersViewModel() {
 }
 
 // 관리자 게시글 관리 ViewModel
-export function useAdminPostsViewModel() {
+export const useAdminPostsViewModel = () => {
   const [posts, setPosts] = useState<Post[]>([]);
   const [pagination, setPagination] = useState<AdminPagination | null>(null);
 
@@ -185,7 +185,7 @@ export function useAdminPostsViewModel() {
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchPosts() {
+    const fetchPosts = async () => {
       try {
         const result: AdminPostListData = await getAdminPosts({
           page: 1,
@@ -205,7 +205,7 @@ export function useAdminPostsViewModel() {
           setLoading(false);
         }
       }
-    }
+    };
 
     void fetchPosts();
 
@@ -296,7 +296,7 @@ export function useAdminPostsViewModel() {
 }
 
 // 관리자 댓글 관리 ViewModel
-export function useAdminCommentsViewModel() {
+export const useAdminCommentsViewModel = () => {
   const [comments, setComments] = useState<Comment[]>([]);
   const [pagination, setPagination] = useState<AdminPagination | null>(null);
 
@@ -308,7 +308,7 @@ export function useAdminCommentsViewModel() {
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchComments() {
+    const fetchComments = async () => {
       try {
         const result: AdminCommentListData = await getAdminComments({
           page: 1,
@@ -328,7 +328,7 @@ export function useAdminCommentsViewModel() {
           setLoading(false);
         }
       }
-    }
+    };
 
     void fetchComments();
 

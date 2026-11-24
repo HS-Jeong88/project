@@ -12,7 +12,7 @@ interface CommentsSectionProps {
   postId: string;
 }
 
-export default function CommentsSection({ postId }: CommentsSectionProps) {
+const CommentsSection = ({ postId }: CommentsSectionProps) => {
   const { user } = useAuth();
 
   const {
@@ -354,4 +354,6 @@ export default function CommentsSection({ postId }: CommentsSectionProps) {
       )}
     </section>
   );
-}
+};
+
+export default CommentsSection;

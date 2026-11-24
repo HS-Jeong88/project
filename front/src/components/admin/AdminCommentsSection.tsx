@@ -2,7 +2,7 @@
 
 import { useAdminCommentsViewModel } from "@/viewmodels/admin/useAdminViewModel";
 
-export default function AdminCommentsSection() {
+const AdminCommentsSection = () => {
   const {
     comments,
     pagination,
@@ -136,4 +136,6 @@ export default function AdminCommentsSection() {
       )}
     </section>
   );
-}
+};
+
+export default AdminCommentsSection;

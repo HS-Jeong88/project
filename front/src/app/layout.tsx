@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   description: "AI 기반 커뮤니티 게시판",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html lang="ko">
       <body className="min-h-screen bg-slate-50 text-slate-800 antialiased">
@@ -25,4 +25,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

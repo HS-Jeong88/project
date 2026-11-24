@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import { useAuth } from "@/providers/AuthProvider";
 
-export default function Header() {
+const Header = () => {
   const router = useRouter();
 
   const { user, isLoading, logout } = useAuth();
@@ -76,4 +76,6 @@ export default function Header() {
       )}
     </header>
   );
-}
+};
+
+export default Header;

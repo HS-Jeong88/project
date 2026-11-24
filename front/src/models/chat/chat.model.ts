@@ -12,7 +12,7 @@ import type {
 } from "./chat.types";
 
 // AI 질문 전송
-export async function sendRagQuestion(input: RagChatInput): Promise<RagChatResponse> {
+export const sendRagQuestion = async (input: RagChatInput): Promise<RagChatResponse> => {
   const response = await apiClient.post<RagChatApiResponse>("/rag/chat", input);
 
   if (!response.success || !response.data) {
@@ -20,10 +20,10 @@ export async function sendRagQuestion(input: RagChatInput): Promise<RagChatRespo
   }
 
   return response.data;
-}
+};
 
 // 대화방 목록 조회
-export async function getChatConversations(limit = 50, offset = 0): Promise<ChatConversation[]> {
+export const getChatConversations = async (limit = 50, offset = 0): Promise<ChatConversation[]> => {
   const params = new URLSearchParams({
     limit: String(limit),
     offset: String(offset),
@@ -44,13 +44,13 @@ export async function getChatConversations(limit = 50, offset = 0): Promise<Chat
     updatedAt: new Date(conversation.updated_at),
     messageCount: Number(conversation.message_count ?? 0),
   }));
-}
+};
 
 // 특정 대화방 상세 조회
-export async function getChatConversation(conversationId: string): Promise<{
+export const getChatConversation = async (conversationId: string): Promise<{
   conversation: ChatConversation;
   messages: ChatMessage[];
-}> {
+}> => {
   const response = await apiClient.get<ChatConversationDetailApiResponse>(
     `/rag/conversations/${conversationId}`,
   );
@@ -79,10 +79,10 @@ export async function getChatConversation(conversationId: string): Promise<{
       createdAt: new Date(message.created_at),
     })),
   };
-}
+};
 
 // 대화방 삭제
-export async function deleteChatConversation(conversationId: string): Promise<string> {
+export const deleteChatConversation = async (conversationId: string): Promise<string> => {
   const response = await apiClient.delete<DeleteChatConversationApiResponse>(
     `/rag/conversations/${conversationId}`,
   );
@@ -92,4 +92,4 @@ export async function deleteChatConversation(conversationId: string): Promise<st
   }
 
   return response.data.conversationId;
-}
+};

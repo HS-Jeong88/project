@@ -6,7 +6,7 @@ interface ChatMessageProps {
   message: ChatMessageType;
 }
 
-export default function ChatMessage({ message }: ChatMessageProps) {
+const ChatMessage = ({ message }: ChatMessageProps) => {
   const isUser = message.role === "user";
 
   return (
@@ -43,4 +43,6 @@ export default function ChatMessage({ message }: ChatMessageProps) {
       </div>
     </div>
   );
-}
+};
+
+export default ChatMessage;

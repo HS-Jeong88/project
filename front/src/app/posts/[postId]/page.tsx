@@ -9,7 +9,7 @@ import CommentsSection from "@/components/comments/CommentsSection";
 import { useAuth } from "@/providers/AuthProvider";
 import { usePostDetailViewModel } from "@/viewmodels/posts/usePostDetailViewModel";
 
-export default function PostDetailPage() {
+const PostDetailPage = () => {
   const params = useParams<{ postId: string }>();
   const router = useRouter();
 
@@ -124,4 +124,6 @@ export default function PostDetailPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default PostDetailPage;

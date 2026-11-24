@@ -11,7 +11,7 @@ import {
 
 import type { Comment, CommentPagination } from "@/models/comment/comment.types";
 
-export function useCommentsViewModel(postId: string) {
+export const useCommentsViewModel = (postId: string) => {
   const [comments, setComments] = useState<Comment[]>([]);
 
   const [pagination, setPagination] = useState<CommentPagination | null>(null);
@@ -34,7 +34,7 @@ export function useCommentsViewModel(postId: string) {
 
     let cancelled = false;
 
-    async function fetchComments() {
+    const fetchComments = async () => {
       try {
         const result = await getComments(postId, 1, 10);
 
@@ -53,7 +53,7 @@ export function useCommentsViewModel(postId: string) {
           setLoading(false);
         }
       }
-    }
+    };
 
     void fetchComments();
 

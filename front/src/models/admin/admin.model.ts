@@ -15,7 +15,7 @@ import type {
   ApiEnvelope,
 } from "./admin.types";
 
-function createSearchParams(params: AdminListParams): URLSearchParams {
+const createSearchParams = (params: AdminListParams): URLSearchParams => {
   const searchParams = new URLSearchParams();
 
   searchParams.set("page", String(params.page ?? 1));
@@ -26,10 +26,10 @@ function createSearchParams(params: AdminListParams): URLSearchParams {
   }
 
   return searchParams;
-}
+};
 
 // 회원 목록 조회
-export async function getAdminUsers(params: AdminUserListParams = {}): Promise<AdminUserListData> {
+export const getAdminUsers = async (params: AdminUserListParams = {}): Promise<AdminUserListData> => {
   const searchParams = createSearchParams(params);
 
   if (params.role) {
@@ -45,33 +45,33 @@ export async function getAdminUsers(params: AdminUserListParams = {}): Promise<A
   );
 
   return response.data;
-}
+};
 
 // 회원 역할 변경
-export async function updateAdminUserRole(userId: string, role: AdminRole): Promise<AdminUser> {
+export const updateAdminUserRole = async (userId: string, role: AdminRole): Promise<AdminUser> => {
   const response = await apiClient.patch<ApiEnvelope<AdminUserResponseData>>(
     `/admin/users/${encodeURIComponent(userId)}/role`,
     { role },
   );
 
   return response.data.user;
-}
+};
 
 // 회원 상태 변경
-export async function updateAdminUserStatus(
+export const updateAdminUserStatus = async (
   userId: string,
   status: AdminStatus,
-): Promise<AdminUser> {
+): Promise<AdminUser> => {
   const response = await apiClient.patch<ApiEnvelope<AdminUserResponseData>>(
     `/admin/users/${encodeURIComponent(userId)}/status`,
     { status },
   );
 
   return response.data.user;
-}
+};
 
 // 관리자 게시글 목록 조회
-export async function getAdminPosts(params: AdminListParams = {}): Promise<AdminPostListData> {
+export const getAdminPosts = async (params: AdminListParams = {}): Promise<AdminPostListData> => {
   const searchParams = createSearchParams(params);
 
   const response = await apiClient.get<ApiEnvelope<AdminPostListData>>(
@@ -79,21 +79,21 @@ export async function getAdminPosts(params: AdminListParams = {}): Promise<Admin
   );
 
   return response.data;
-}
+};
 
 // 관리자 게시글 삭제
-export async function deleteAdminPost(postId: string): Promise<string> {
+export const deleteAdminPost = async (postId: string): Promise<string> => {
   const response = await apiClient.delete<ApiEnvelope<AdminDeleteResponseData>>(
     `/admin/posts/${encodeURIComponent(postId)}`,
   );
 
   return response.data.id;
-}
+};
 
 // 관리자 댓글 목록 조회
-export async function getAdminComments(
+export const getAdminComments = async (
   params: AdminListParams = {},
-): Promise<AdminCommentListData> {
+): Promise<AdminCommentListData> => {
   const searchParams = createSearchParams(params);
 
   const response = await apiClient.get<ApiEnvelope<AdminCommentListData>>(
@@ -101,13 +101,13 @@ export async function getAdminComments(
   );
 
   return response.data;
-}
+};
 
 // 관리자 댓글 삭제
-export async function deleteAdminComment(commentId: string): Promise<string> {
+export const deleteAdminComment = async (commentId: string): Promise<string> => {
   const response = await apiClient.delete<ApiEnvelope<AdminDeleteResponseData>>(
     `/admin/comments/${encodeURIComponent(commentId)}`,
   );
 
   return response.data.id;
-}
+};

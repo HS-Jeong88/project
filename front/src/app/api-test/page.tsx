@@ -10,7 +10,7 @@ interface HealthResponse {
   message: string;
 }
 
-export default function ApiTestPage() {
+const ApiTestPage = () => {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<string>("");
   const [isSuccess, setIsSuccess] = useState<boolean | null>(null);
@@ -70,4 +70,6 @@ export default function ApiTestPage() {
       </div>
     </main>
   );
-}
+};
+
+export default ApiTestPage;

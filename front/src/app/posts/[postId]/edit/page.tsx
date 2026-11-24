@@ -9,7 +9,7 @@ import { useAuth } from "@/providers/AuthProvider";
 import { usePostDetailViewModel } from "@/viewmodels/posts/usePostDetailViewModel";
 import { usePostEditorViewModel } from "@/viewmodels/posts/usePostEditorViewModel";
 
-export default function PostEditPage() {
+const PostEditPage = () => {
   const params = useParams<{ postId: string }>();
   const router = useRouter();
 
@@ -138,4 +138,6 @@ export default function PostEditPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default PostEditPage;

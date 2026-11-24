@@ -10,13 +10,13 @@ interface AuthProviderProps {
   children: ReactNode;
 }
 
-export function AuthProvider({ children }: AuthProviderProps) {
+export const AuthProvider = ({ children }: AuthProviderProps) => {
   const authViewModel = useAuthViewModel();
 
   return <AuthContext.Provider value={authViewModel}>{children}</AuthContext.Provider>;
-}
+};
 
-export function useAuth(): AuthViewModel {
+export const useAuth = (): AuthViewModel => {
   const context = useContext(AuthContext);
 
   if (!context) {
@@ -24,4 +24,4 @@ export function useAuth(): AuthViewModel {
   }
 
   return context;
-}
+};

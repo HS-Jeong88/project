@@ -7,7 +7,7 @@ import { useState, type FormEvent } from "react";
 import MainLayout from "@/components/layout/MainLayout";
 import { useAuth } from "@/providers/AuthProvider";
 
-export default function RegisterPage() {
+const RegisterPage = () => {
   const router = useRouter();
 
   const { register } = useAuth();
@@ -127,4 +127,6 @@ export default function RegisterPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default RegisterPage;

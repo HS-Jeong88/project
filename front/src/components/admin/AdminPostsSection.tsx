@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useAdminPostsViewModel } from "@/viewmodels/admin/useAdminViewModel";
 
-export default function AdminPostsSection() {
+const AdminPostsSection = () => {
   const {
     posts,
     pagination,
@@ -143,4 +143,6 @@ export default function AdminPostsSection() {
       )}
     </section>
   );
-}
+};
+
+export default AdminPostsSection;

@@ -6,7 +6,7 @@ import MainLayout from "@/components/layout/MainLayout";
 import { usePostsViewModel } from "@/viewmodels/posts/usePostsViewModel";
 import { useAuth } from "@/providers/AuthProvider";
 
-function formatDate(date: string) {
+const formatDate = (date: string) => {
   return new Date(date).toLocaleString("ko-KR", {
     year: "numeric",
     month: "2-digit",
@@ -14,9 +14,9 @@ function formatDate(date: string) {
     hour: "2-digit",
     minute: "2-digit",
   });
-}
+};
 
-export default function PostsPage() {
+const PostsPage = () => {
   const {
     posts,
     pagination,
@@ -238,4 +238,6 @@ export default function PostsPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default PostsPage;

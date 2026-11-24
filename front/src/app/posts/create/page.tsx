@@ -8,7 +8,7 @@ import MainLayout from "@/components/layout/MainLayout";
 import { useAuth } from "@/providers/AuthProvider";
 import { usePostEditorViewModel } from "@/viewmodels/posts/usePostEditorViewModel";
 
-export default function PostCreatePage() {
+const PostCreatePage = () => {
   const router = useRouter();
 
   const { user, isLoading: authLoading } = useAuth();
@@ -121,4 +121,6 @@ export default function PostCreatePage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default PostCreatePage;

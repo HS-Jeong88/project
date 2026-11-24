@@ -11,7 +11,7 @@ import {
 
 import type { ChatConversation, ChatMessage } from "@/models/chat/chat.types";
 
-export function useChatViewModel() {
+export const useChatViewModel = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [conversations, setConversations] = useState<ChatConversation[]>([]);
 

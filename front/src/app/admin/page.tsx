@@ -30,7 +30,7 @@ const tabs: {
   },
 ];
 
-export default function AdminPage() {
+const AdminPage = () => {
   const { user, isLoading } = useAuth();
 
   const [activeTab, setActiveTab] = useState<AdminTab>("users");
@@ -97,4 +97,6 @@ export default function AdminPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default AdminPage;

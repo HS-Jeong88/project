@@ -6,7 +6,7 @@ interface ChatSourcesProps {
   sources: ChatSource[];
 }
 
-export default function ChatSources({ sources }: ChatSourcesProps) {
+const ChatSources = ({ sources }: ChatSourcesProps) => {
   if (sources.length === 0) {
     return null;
   }
@@ -48,4 +48,6 @@ export default function ChatSources({ sources }: ChatSourcesProps) {
       </div>
     </section>
   );
-}
+};
+
+export default ChatSources;

@@ -2,27 +2,27 @@ import { apiClient } from "@/lib/api/apiClient";
 
 import type { ApiEnvelope, AuthPayload, AuthUser, LoginInput, RegisterInput } from "./auth.types";
 
-function unwrapData<T>(response: T | ApiEnvelope<T>): T {
+const unwrapData = <T,>(response: T | ApiEnvelope<T>): T => {
   if (response !== null && typeof response === "object" && "data" in response) {
     return response.data;
   }
 
   return response as T;
-}
+};
 
-function extractUser(data: AuthUser | { user: AuthUser }): AuthUser {
+const extractUser = (data: AuthUser | { user: AuthUser }): AuthUser => {
   if ("user" in data) {
     return data.user;
   }
 
   return data;
-}
+};
 
-export async function registerUser(input: RegisterInput): Promise<void> {
+export const registerUser = async (input: RegisterInput): Promise<void> => {
   await apiClient.post<ApiEnvelope<unknown>>("/auth/register", input, { auth: false });
-}
+};
 
-export async function loginUser(input: LoginInput): Promise<AuthPayload> {
+export const loginUser = async (input: LoginInput): Promise<AuthPayload> => {
   const response = await apiClient.post<ApiEnvelope<AuthPayload>>("/auth/login", input, {
     auth: false,
   });
@@ -34,9 +34,9 @@ export async function loginUser(input: LoginInput): Promise<AuthPayload> {
   }
 
   return data;
-}
+};
 
-export async function refreshAccessToken(): Promise<string> {
+export const refreshAccessToken = async (): Promise<string> => {
   const response = await apiClient.post<ApiEnvelope<{ accessToken: string }>>(
     "/auth/refresh",
     undefined,
@@ -50,14 +50,14 @@ export async function refreshAccessToken(): Promise<string> {
   }
 
   return data.accessToken;
-}
+};
 
-export async function getCurrentUser(): Promise<AuthUser> {
+export const getCurrentUser = async (): Promise<AuthUser> => {
   const response = await apiClient.get<ApiEnvelope<AuthUser | { user: AuthUser }>>("/auth/me");
 
   return extractUser(unwrapData(response));
-}
+};
 
-export async function logoutUser(): Promise<void> {
+export const logoutUser = async (): Promise<void> => {
   await apiClient.post<ApiEnvelope<unknown>>("/auth/logout", undefined, { auth: false });
-}
+};

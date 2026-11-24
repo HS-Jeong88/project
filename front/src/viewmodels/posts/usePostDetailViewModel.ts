@@ -6,7 +6,7 @@ import { deletePost, getPost } from "@/models/post/post.model";
 
 import type { Post } from "@/models/post/post.types";
 
-export function usePostDetailViewModel(postId: string) {
+export const usePostDetailViewModel = (postId: string) => {
   const [post, setPost] = useState<Post | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -15,7 +15,7 @@ export function usePostDetailViewModel(postId: string) {
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchPost() {
+    const fetchPost = async () => {
       if (!postId) {
         setError("게시글 번호가 올바르지 않습니다.");
         setLoading(false);
@@ -37,7 +37,7 @@ export function usePostDetailViewModel(postId: string) {
           setLoading(false);
         }
       }
-    }
+    };
 
     void fetchPost();
 

@@ -7,7 +7,7 @@ interface MainLayoutProps {
   children: ReactNode;
 }
 
-export default function MainLayout({ children }: MainLayoutProps) {
+const MainLayout = ({ children }: MainLayoutProps) => {
   return (
     <div className="min-h-screen">
       <Header />
@@ -21,4 +21,6 @@ export default function MainLayout({ children }: MainLayoutProps) {
       </div>
     </div>
   );
-}
+};
+
+export default MainLayout;
