@@ -1,3 +1,7 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import swaggerUi from "swagger-ui-express";
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
@@ -7,6 +11,9 @@ import cookieParser from "cookie-parser";
 import apiRouter from "./routes/index.js";
 
 import { notFoundHandler, errorHandler } from "./middlewares/error.middleware.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 
@@ -23,6 +30,22 @@ if (trustProxyValue && trustProxyValue !== "false" && trustProxyValue !== "0") {
   app.set("trust proxy", Number(trustProxyValue));
 } else {
   app.set("trust proxy", false);
+}
+
+// ✅ [추가] Helmet CSP 차단을 피하기 위해 helmet() 이전에 /docs 등록
+const swaggerPath = path.join(__dirname, "swagger-output.json");
+if (fs.existsSync(swaggerPath)) {
+  const swaggerFile = JSON.parse(fs.readFileSync(swaggerPath, "utf8"));
+  app.use(
+    "/docs",
+    swaggerUi.serve,
+    swaggerUi.setup(swaggerFile, {
+      explorer: true,
+      swaggerOptions: {
+        persistAuthorization: true, // 새로고침해도 JWT 토큰 유지
+      },
+    }),
+  );
 }
 
 // Helmet

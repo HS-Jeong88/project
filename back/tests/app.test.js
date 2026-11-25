@@ -8,6 +8,14 @@ import app from "../src/app.js";
 
 const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN?.split(",")[0]?.trim() || "http://localhost:5500";
 
+describe("Swagger Docs", () => {
+  it("GET /docs/ 는 Swagger UI HTML을 반환해야 한다", async () => {
+    const res = await request(app).get("/docs/");
+    expect(res.statusCode).toBe(200);
+    expect(res.text).toContain("Swagger UI");
+  });
+});
+
 test("GET /api/v1/health - 서버 정상 응답", async () => {
   const response = await request(app).get("/api/v1/health");
 
